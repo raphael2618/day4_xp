@@ -1,0 +1,8 @@
+{%extends 'base.html'%}
+{%block content%}
+{%for task in categories %}
+{{task.name}}<br>
+<img src="{{task.image}}" alt=""><br>
+{%endfor%}
+{%endblock%}
+
